@@ -1,6 +1,6 @@
 {
   "name": "akv-status",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "akv store for file status",
   "main": "lib",
   "scripts": {
