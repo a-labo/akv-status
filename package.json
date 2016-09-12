@@ -1,8 +1,8 @@
 {
   "name": "akv-status",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "akv store for file status",
-  "main": "lib",
+  "main": "shim/node",
   "scripts": {
     "test": "node ./ci/test.js",
     "prepublish": "node ./ci/build.js && node ./ci/shim.js"
