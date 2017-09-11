@@ -1,11 +1,11 @@
 {
   "name": "akv-status",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "akv store for file status",
   "main": "lib",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+    "prepare": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "a-labo/akv-status",
   "keywords": [
@@ -23,14 +23,13 @@
   "homepage": "https://github.com/a-labo/akv-status#readme",
   "dependencies": {
     "aglob": "^2.0.1",
+    "akv": "^1.1.1",
     "asfs": "^1.1.1",
-    "babel-runtime": "^6.11.6",
-    "co": "^4.6.0"
+    "babel-runtime": "^6.11.6"
   },
   "devDependencies": {
     "ababel": "^2.0.2",
     "ababel-es2015": "^2.0.2",
-    "akv": "^1.1.0",
     "amocha": "^2.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.2",
@@ -42,10 +41,7 @@
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=4",
-    "npm": ">=2"
-  },
-  "peerDependencies": {
-    "akv": ">=1"
+    "node": ">=7.6",
+    "npm": ">=4"
   }
 }
